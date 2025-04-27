@@ -1,5 +1,5 @@
-FROM python:3.7-alpine
-MAINTAINER Erignoux Laurent <lerignoux@gmail.com>
+FROM python:3.10-alpine
+LABEL org.opencontainers.image.authors="Laurent Erignoux lerignoux@gmail.com"
 
 RUN apk update && apk add git ffmpeg youtube-dl
 

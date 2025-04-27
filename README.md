@@ -11,5 +11,5 @@ See root projects for available options
 
 ## Build
 ```
-docker build -t youtube-dl .
+docker build -t lerignoux/youtube-dl .
 ```
