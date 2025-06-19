@@ -1,5 +1,6 @@
 FROM python:3.10-alpine
 LABEL org.opencontainers.image.authors="Laurent Erignoux lerignoux@gmail.com"
+LABEL lerignoux.prune="keep"
 
 RUN apk update && apk add git ffmpeg
 RUN pip install --upgrade --force-reinstall uv
